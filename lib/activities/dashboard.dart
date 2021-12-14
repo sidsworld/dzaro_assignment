@@ -183,7 +183,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                                 Divider(
                                                   color: Colors.grey.shade600,
                                                 ),
-                                                //if (kIsWeb) //If we want to show this options to only web users.
+                                                //if (kIsWeb) //If we want to show list and grid change options to only web users.
                                                 Container(
                                                   padding: const EdgeInsets
                                                           .symmetric(
