@@ -4,6 +4,7 @@ import 'package:dzaro_assignment/routes.dart';
 import 'package:dzaro_assignment/screen_arguments.dart';
 import 'package:dzaro_assignment/state_management_providers/dashboard_provider.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:provider/provider.dart';
@@ -182,6 +183,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                                 Divider(
                                                   color: Colors.grey.shade600,
                                                 ),
+                                                //if (kIsWeb) //If we want to show this options to only web users.
                                                 Container(
                                                   padding: const EdgeInsets
                                                           .symmetric(
